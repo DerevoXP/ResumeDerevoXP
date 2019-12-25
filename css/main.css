@@ -274,6 +274,9 @@
   #aboutModel .closeBtn {
     margin: 220px 0 0 100px;
   }
+  #root #header {
+    height: 50px;
+  }
   #root #header #headerCrutch {
     width: 360px;
   }
@@ -300,6 +303,9 @@
 }
 
 @media screen and (max-width: 500px) {
+  #root #header {
+    height: 40px;
+  }
   #root #header #headerCrutch {
     width: 250px;
   }

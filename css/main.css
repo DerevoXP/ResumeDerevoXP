@@ -1,0 +1,280 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#aboutModel {
+  position: fixed;
+  display: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: black;
+  color: white;
+  height: 100vh;
+  width: 100%;
+  font-size: 20px;
+}
+
+#aboutModel .closeBtn {
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  margin: 240px 0 0 177px;
+  color: black;
+  z-index: 30;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+#aboutModel .closeBtn:hover {
+  width: 60px;
+  height: 60px;
+}
+
+#aboutModel h3 {
+  width: 400px;
+}
+
+#aboutModel p {
+  width: 400px;
+  margin-top: 50px;
+  text-align: justify;
+}
+
+#aboutModel a {
+  text-decoration: none;
+  color: grey;
+}
+
+#contactModel {
+  position: fixed;
+  display: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: black;
+  color: red;
+  height: 100vh;
+  width: 100%;
+  font-size: 20px;
+}
+
+#contactModel .closeBtn {
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  margin: 90px 0 0 0;
+  color: black;
+  z-index: 30;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+#contactModel .closeBtn:hover {
+  width: 60px;
+  height: 60px;
+}
+
+#contactModel h3 {
+  width: 400px;
+}
+
+#contactModel p {
+  width: 400px;
+  margin-top: 50px;
+  text-align: justify;
+}
+
+#contactModel a {
+  text-decoration: none;
+  color: grey;
+}
+
+#root {
+  background: linear-gradient(45deg, black, white);
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#root #header {
+  width: 100%;
+  height: 70px;
+  background-color: black;
+  color: white;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#root #header #headerCrutch {
+  width: 760px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#root #header #headerCrutch #about {
+  cursor: pointer;
+}
+
+#root #header #headerCrutch #contacts {
+  cursor: pointer;
+}
+
+#root #footer {
+  width: 100%;
+  height: 30px;
+  background-color: black;
+  color: grey;
+  position: fixed;
+  bottom: 0;
+  z-index: 10;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#root #crutch {
+  width: 760px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  background-color: white;
+  margin: 200px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 10px;
+  padding: 50px 20px;
+}
+
+#root #crutch .page {
+  width: 200px;
+  height: 300px;
+  background-color: gainsboro;
+  border-radius: 10px;
+  margin: 20px 20px;
+  -webkit-box-shadow: 5px 5px 15px 5px black;
+          box-shadow: 5px 5px 15px 5px black;
+}
+
+#root #crutch .page:hover {
+  background-color: dimgray;
+}
+
+#root #crutch .page a .linker {
+  position: absolute;
+  width: 200px;
+  height: 300px;
+  opacity: 0;
+}
+
+#root #crutch .page .descript {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#root #crutch .page .descript .star {
+  position: absolute;
+  background-image: url(../img/star.png);
+  width: 50px;
+  height: 50px;
+  margin: -15px 0 0 90px;
+}
+
+#root #crutch .page .descript h3 {
+  padding: 10px;
+  text-align: center;
+}
+
+#root #crutch .page .descript img {
+  margin: 20px auto;
+  width: 180px;
+}
+
+#root #crutch .page .descript p {
+  padding: 10px;
+  text-align: justify;
+}
+/*# sourceMappingURL=main.css.map */

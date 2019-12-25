@@ -265,6 +265,46 @@
 
 #root #crutch .page .descript p {
   padding: 10px;
-  text-align: justify;
+}
+
+@media screen and (max-width: 800px) {
+  #root #header #headerCrutch {
+    width: 360px;
+  }
+  #root #crutch {
+    width: 460px;
+  }
+  #root #crutch .page {
+    width: 160px;
+    height: 280px;
+  }
+  #root #crutch .page .descript .star {
+    margin: -20px 0 0 80px;
+  }
+  #root #crutch .page .descript img {
+    margin: 20px auto;
+    width: 140px;
+  }
+  #root #crutch .page .descript p {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #root #header #headerCrutch {
+    width: 250px;
+  }
+  #root #crutch {
+    width: 250px;
+  }
+  #aboutModel .closeBtn {
+    margin: 260px 0 0 100px;
+  }
+  #aboutModel h3 {
+    width: 250px;
+  }
+  #aboutModel p {
+    width: 250px;
+  }
 }
 /*# sourceMappingURL=main.css.map */

@@ -100,7 +100,7 @@
       -ms-flex-align: center;
           align-items: center;
   position: absolute;
-  margin: 90px 0 0 0;
+  margin: 110px 0 0 0;
   color: black;
   z-index: 30;
   border-radius: 50%;
@@ -110,16 +110,6 @@
 #contactModel .closeBtn:hover {
   width: 60px;
   height: 60px;
-}
-
-#contactModel h3 {
-  width: 400px;
-}
-
-#contactModel p {
-  width: 400px;
-  margin-top: 50px;
-  text-align: justify;
 }
 
 #contactModel a {
